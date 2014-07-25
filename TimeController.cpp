@@ -1,22 +1,23 @@
 #include "TimeController.h"
 
-void TimeController :: init(){
+void TimeController :: TimeController(){
     /* values go as such [starttime, duration] */
     int* goodValues[];
     int* badValues[];
     loadBrain()
 }
 
-void loadBrain(){
+void TimeController :: loadBrain(){
     /* loads EEPROM data about goodvalues and badvalues */
     //goodValues = 
     //badValues = 
 
 }
 
-void addToGoodList(){
+void TimeController :: addToBad(badobj bo){
+    
 }
 
-int checkDistance(){
+int TimeController :: checkDistance(){
 }
 
